@@ -1,0 +1,140 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+   ========================= */
+
+/* Quitamos espacios que coloca el navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Diseño general de la página */
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   ENCABEZADO
+   ========================= */
+
+header {
+    background-color: #c933b5;
+    color: white;
+    text-align: center;
+
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/* Nombre de la página */
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Texto debajo del título */
+header p {
+    font-size: 16px;
+}
+
+
+/* =========================
+   CONTENIDO PRINCIPAL
+   ========================= */
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* =========================
+   TARJETAS DE PROYECTOS
+   ========================= */
+
+.proyecto,
+.documento {
+    background-color: white;
+
+    width: 70%;
+
+    margin: 20px auto;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 10px;
+}
+
+
+/* Título de cada proyecto */
+.proyecto h2,
+.documento h2 {
+    color: #333333;
+
+    margin-bottom: 10px;
+}
+
+
+/* Descripción */
+.proyecto p,
+.documento p {
+    color: #666666;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   BOTONES / ENLACES
+   ========================= */
+
+a {
+    display: inline-block;
+
+    background-color: #333333;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+}
+
+
+/* Cuando pasamos el mouse */
+a:hover {
+    background-color: #555555;
+}
+
+
+/* =========================
+   DOCUMENTO PDF
+   ========================= */
+
+.documento {
+    border: 2px solid #555555;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+   ========================= */
+
+footer {
+    margin-top: 40px;
+
+    padding: 20px;
+
+    background-color: #333333;
+
+    color: white;
+
+    text-align: center;
+}
